@@ -26,7 +26,7 @@ services:
       You are a helpful assistant. When the user asks about the weather or a currency conversion,
       call the appropriate function tool. The calling application executes the function and returns
       the result to you.
-    tool_choice: auto
+    toolChoice: auto
     tools:
       - type: function
         name: get_weather
